@@ -81,10 +81,7 @@ window.onload = function () {
 function yesClick() {
   alert("Thương em nhất trên đời!");
 }
-function noClick() {
-  alert("Yeahhhh nút no đã biến mất :3");
-   document.getElementById("btnNo").style.visibility="hidden";
-}
+
 function noHover() {
   var x = Math.floor(Math.random() * window.innerWidth);
   var y = Math.floor(Math.random() * window.innerHeight);
